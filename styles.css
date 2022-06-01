@@ -16,15 +16,13 @@ header .header__title {
 }
 
 main {
-  padding-left: 77px;
-  padding-right: 77px;
-  padding-top: 50px;
+  padding: 200px 77px;
   display: flex;
 }
 
 main .hero__image__container {
   width: 100%;
-  background: rgb(117, 235, 219);
+  /* background: rgb(117, 235, 219); */
   display: flex;
   justify-content: center;
 }
@@ -36,7 +34,7 @@ main .hero__image__container .hero__image__element {
 
 main .hero__content__container {
   width: 100%;
-  background: rgb(121, 235, 117);
+  /* background: rgb(121, 235, 117); */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -54,4 +52,31 @@ main .hero__content__container .hero__content__item {
   font-weight: 400;
   max-width: 381px;
   margin-top: 36px;
+}
+
+main .hero__content__container .hero__content__btn {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 24px 43px;
+  max-width: fit-content;
+  background-color: var(--primary-color);
+  color: #ffffff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-top: 64px;
+}
+
+main .hero__content__container .hero__content__btn:active {
+  opacity: 0.9;
+}
+
+footer {
+  font-family: "Montserrat", "sans-serif";
+  text-align: center;
+  padding: 24px 0;
+}
+
+footer .footer__content__link {
+  color: var(--primary-color);
 }
