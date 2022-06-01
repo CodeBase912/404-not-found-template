@@ -4,15 +4,54 @@
   --primary-color: #333333;
 }
 
+body {
+  color: var(--primary-color);
+}
+
 header .header__title {
   font-family: "Inconsolata";
   font-size: 24px;
   padding-left: 77px;
   padding-top: 40px;
-  color: var(--primary-color);
 }
 
 main {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 77px;
+  padding-right: 77px;
+  padding-top: 50px;
+  display: flex;
+}
+
+main .hero__image__container {
+  width: 100%;
+  background: rgb(117, 235, 219);
+  display: flex;
+  justify-content: center;
+}
+
+main .hero__image__container .hero__image__element {
+  width: 540px;
+  object-fit: contain;
+}
+
+main .hero__content__container {
+  width: 100%;
+  background: rgb(121, 235, 117);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+  font-family: "Space Mono", "sans-serif";
+}
+
+main .hero__content__container .hero__content__title {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+main .hero__content__container .hero__content__item {
+  font-size: 24px;
+  font-weight: 400;
+  max-width: 381px;
+  margin-top: 36px;
 }
