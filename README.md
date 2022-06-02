@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="https://404-not-found-design.netlify.app">
+    <a href="https://404-not-found-design.netlify.app" target="_blank">
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/tD6zpMVeZbmbI2JhRDFr">
+    <a href="https://devchallenges.io/solutions/tD6zpMVeZbmbI2JhRDFr" target="_blank">
       Solution
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY">
+    <a href="https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY" target="_blank">
       Challenge
     </a>
   </h3>
